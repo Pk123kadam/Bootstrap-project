@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <title>faq</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <section class="top_bar bg-dark  px-3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-12 d-flex align-items-center ">
+                    <span style="color: white; font-size:13px"> Free
+                        shipping • Free 30 days
+                        return •
+                        Express delivery
+                    </span>
+                </div>
+                <div class="col-md-6 col-12">
+
+
+                    <ul class="navbar-nav top_list ms-auto" style="width: fit-content;">
+                        <li class="nav-item py-2"><img src="flag.jpg"></li>
+                        <li class="nav-item"><a href="dashboard.html" class="nav-link dash_link"
+                                style="color: white;">Dashboard</a></li>
+                        <li class="nav-item" style="border: none;">
+
+                            <button class="btn btn-secondary dropdown-toggle usd_drop d-flex align-items-center" type="
+                                button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false"
+                                style="background-color: #202529; border: none;">
+                                USD
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark usd_dark" aria-labelledby="dropdownMenuButton2">
+                                <li><a class="dropdown-item" href="#">USD</a></li>
+                                <li><a class="dropdown-item" href="#">JPN</a></li>
+                                <li><a class="dropdown-item" href="#">BAN</a></li>
+
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white px-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="home.html"><img src="logo (1).png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 justify-content-center gap-3 navbar_list"
+                        style="width: 100%;">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="home.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">SHOP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about us.html">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">CONTACT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>
+
+                    </ul>
+                    <div class="nav_search d-flex gap-4">
+                        <i class="bi bi-search rounded-circle  p-2 px-3" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#navbar_canvas_1"></i>
+
+
+
+
+                        <i class="bi bi-list rounded-circle  p-2 px-3" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#navbar_canvas_2"></i>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </nav>
+        <div class="offcanvas offcanvas-top offcanvas_nav_1" tabindex="-1" id="navbar_canvas_1"
+            aria-labelledby="offcanvasBottomLabel" data-bs-backdrop="false" data-bs-scroll="true">
+            <div class="offcanvas-header p-1 px-2">
+
+                <button type="button" class="btn-close text-reset ms-auto" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body small d-flex align-items-center gap-2 nav_search2">
+                <input type="text" placeholder="Enter your Keywords"
+                    style="width: 96%;color: white; background-color:#202529 ; border: none;">
+                <i class="bi bi-search" style="color: white;"></i>
+
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-top offcanvas_nav_2 rounded-2" tabindex="-1" id="navbar_canvas_2"
+            aria-labelledby="offcanvasBottomLabel">
+            <div class="row row-cols-2 g-0">
+                <div class="col"><img src="newsletter-popup.jpg" style="width: 100%; height:579px" class="rounded-2">
+                </div>
+                <div class="col d-flex flex-column gap-4 align-items-center">
+                    <div class="btn  text-end" style="width: 100%;">
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+
+                    <p style="font-size: 30px;">Lucky You!</p>
+                    <p style="font-size: 20px;">Want an Instant</p>
+                    <p style="font-size: 30px;">10% OFF?
+                    </p>
+                    <div class="nav_form d-flex gap-3 flex-column align-items-center" style="width: 100%;">
+                        <input type="text" placeholder="Email Address"
+                            style="width: 80%; height: 55px; border-radius: 22px;" class="border px-4">
+                        <button class="btn"
+                            style="width: 80%; height: 55px; border-radius: 22px; background-color: #ff250b; color: white;">JOIN
+                            US</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+    </section>
+
+    <div class="bar p-4" style="background-color: #f2f3f5;">
+        <div class="container d-flex align-items-center">
+            <p><a href="home.html" class="nav-link" style="color: black;"> Home /</a> </p>
+            <p style="color: grey;">faq</p>
+
+        </div>
+    </div>
+
+
+    <section id="faq_section">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-4 col-12 d-flex flex-column gap-3">
+                    <h4 style="font-size:30px;">Frequently Asked Questions</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, repudiandae.</p>
+                    <p>admin@mail.com</p>
+                </div>
+                <div class="col-md-8 col-12">
+
+                    <div class="accordion" id="faq">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button accordion-button_faq" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true"
+                                    aria-controls="collapseOne">
+                                    Order Status
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#faq">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas iusto, alias,
+                                    tempora fuga quam eveniet neque excepturi aliquid. Eligendi, mollitia.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button  accordion-button_faq collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    Shipping & Delivery
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#faq">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam voluptatibus,
+                                    incidunt similique nobis sint quisquam nam ab error consequuntur sit ullam ex eum
+                                    exercitationem, excepturi explicabo beatae eos aspernatur odit ad perspiciatis,
+                                    neque saepe magni enim. Maiores quia, quae sequi.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button accordion-button_faq  collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    Payments
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#faq">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus repellat id,
+                                    laboriosam ipsa repudiandae quisquam, suscipit officiis, praesentium itaque facilis
+                                    distinctio dolorum. Velit reiciendis libero laudantium corporis, delectus impedit
+                                    sunt.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button accordion-button_faq collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    Returns & Exchanges
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#faq">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam eaque nam, ab
+                                    voluptas et debitis sint hic vel ratione dignissimos.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button accordion-button_faq    collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    Privacy Policy
+                                </button>
+                            </h2>
+                            <div id="faq5" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#faq">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae blanditiis quod
+                                    saepe, inventore ipsum sint cum iste quae ratione nobis laborum minima autem totam
+                                    similique, quia neque deleniti! Provident, suscipit.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="footer">
+        <div class="bottom_1">
+            <div class="container">
+                <div class="row gy-5">
+
+                    <div class="col-md-3 col-12 d-flex flex-column gap-3 foot">
+                        <h4>Contact</h4>
+                        <p>20464 Hirthe Curve Suite, Emardton, CT 12471-4107</p>
+                        <p>+5(305) 785-0437</p>
+                        <p>info@example.com</p>
+                        <div class="logo">
+                            <a href="#">
+                                <ion-icon name="logo-facebook" class="rounded-circle p-2 border">
+                                </ion-icon>
+                            </a>
+
+                            <a href="#">
+                                <ion-icon name="logo-twitter" class="rounded-circle p-2 border"></ion-icon>
+                            </a>
+                            <a href="#">
+                                <ion-icon name="logo-vimeo" class="rounded-circle p-2 border"></ion-icon>
+                            </a>
+                            <a href="#">
+                                <ion-icon name="logo-google" class="rounded-circle p-2 border"></ion-icon>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-12 foot">
+                        <h4>Category</h4>
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="#">Men</a></li>
+                            <li class="nav-item"><a href="#">Women</a></li>
+                            <li class="nav-item"><a href="#">Kids</a></li>
+                            <li class="nav-item"><a href="#">Accessories</a></li>
+                            <li class="nav-item"><a href="#">Shoe</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-12 foot">
+                        <h4>Useful Link</h4>
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="#">News & Tips</a></li>
+                            <li class="nav-item"><a href="#">About Us</a></li>
+                            <li class="nav-item"><a href="#">Support</a></li>
+                            <li class="nav-item"><a href="#">Our Shop</a></li>
+                            <li class="nav-item"><a href="#">Contact Us</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-12 foot">
+
+                        <h4>Our Policies</h4>
+                        <ul class=" navbar-nav">
+                            <li class="nav-item"><a href="#">Privacy Policy</a></li>
+                            <li class="nav-item"><a href="#">Terms & Conditions</a></li>
+                            <li class="nav-item"><a href="#">Cookie Policy</a></li>
+                            <li class="nav-item"><a href="#">Our Terms of Sale</a></li>
+                            <li class="nav-item"><a href="#">Free Shipping & Returns</a></li>
+
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="bottom_2">
+            <div class="container">
+                <div class="row gy-3">
+                    <div class="col-md-4 col-12 d-flex align-items-center justify-content-center">
+                        <span style="color: white;">Logo © 2018 all right reserved</span>
+
+
+                    </div>
+                    <div class="col-md-4 col-12 text-center">
+                        <span><img src="logo-alt.png"></span>
+                    </div>
+                    <div class="col-md-4 col-12 d-flex align-items-center justify-content-center gap-2">
+                        <span><img src="card-1.jpg" class="rounded"></span>
+                        <span><img src="card-2.jpg" class="rounded"></span>
+                        <span><img src="card-3.jpg" class="rounded"></span>
+                        <span><img src="card-4.jpg" class="rounded"></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
